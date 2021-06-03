@@ -25,7 +25,7 @@ metadata:
 spec:
   type: LoadBalancer
   externalIPs:
-    - 192.168.83.128
+    - 192.168.83.128 # (minikube ip)
   ports:
   - port: 8555
     targetPort: 80

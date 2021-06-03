@@ -11,4 +11,4 @@ spec:
   accessModes:
     - ReadWriteOnce
   hostPath:
-    path: "/home/oem/Documents/automation"
+    path: "/home/oem/Documents/automation" # host location

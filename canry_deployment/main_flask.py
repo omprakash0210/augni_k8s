@@ -8,4 +8,4 @@ app.config["DEBUG"] = True
 def home():
     return "<h1>HELLO SCRIBETECH.</h1> <br>This is version V2 of application."
 
-app.run(host="0.0.0.0", port=80)
+app.run(host="0.0.0.0", port=80)  # expose flask service to port 80
