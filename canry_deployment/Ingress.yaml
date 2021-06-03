@@ -1,0 +1,14 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: flask-ingress
+spec:
+  rules:
+  - host: augnito.example.com
+    http:
+      paths:
+      - path: /
+        pathType:
+        backend:
+          serviceName: flask-service
+          servicePort: http
